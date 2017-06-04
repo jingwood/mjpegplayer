@@ -332,6 +332,9 @@ namespace unvell.MotionClient
 
 		private void openStreamToolStripMenuItem_Click(object sender, EventArgs e)
 		{
+			var topmostBackup = this.TopMost;
+			this.TopMost = false;
+
 			using (OpenForm of = new OpenForm())
 			{
 				of.Url = m1.Url;
@@ -341,6 +344,8 @@ namespace unvell.MotionClient
 					if (!m1.Retrying) m1.Restart();
 				}
 			}
+
+			this.TopMost = topmostBackup;
 		}
 
 		private void showScreenToolStripMenuItem_Click(object sender, EventArgs e)
