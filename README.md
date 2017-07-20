@@ -11,7 +11,7 @@
 - Automatically adjust window size according to received MJPEG stream
 - Support via HTTP proxy server
 - Save proxy server account information using simple encryption policy
-- Requires only .NET 2.0 and no 3rd-party software required
+- Work from .NET 2.0 and no 3rd-party software required
 
 # Build Environment
 
