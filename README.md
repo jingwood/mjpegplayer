@@ -22,7 +22,8 @@ A Windows program for receiving and play the MJPEG stream.
 
 # System requirements
 
-The .NET framework is required to run this program. The .NET framework will be prompted to be installed automatically on the first time this program running.
+The .NET framework is required to run this program. 
+The .NET framework will be prompted to be installed automatically on the first time this program running.
 
 # Build Environment
 
