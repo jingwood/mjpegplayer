@@ -1,6 +1,12 @@
 # .NET MJPEG Player
 
- Designed to receive MJPEG stream from motion program on Raspberry Pi.
+A Windows program for receiving and play the MJPEG stream.
+
+# The use case
+
+1. Install the motion program on Raspberry Pi
+2. Config to send MJPEG stream from motion
+3. Play the MJPEG stream on Windows
 
 # Features
 
@@ -13,6 +19,10 @@
 - Save proxy server account information using simple encryption policy
 - Work on since .NET 2.0 framework
 - No 3rd-party software required
+
+# System requirements
+
+The .NET framework is required to run this program. The .NET framework will be prompted to be installed automatically on the first time this program running.
 
 # Build Environment
 
