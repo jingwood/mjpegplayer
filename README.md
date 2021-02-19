@@ -1,6 +1,6 @@
 # .NET MJPEG Player
 
-A Windows application for receiving and play the MJPEG stream.
+A Windows application written in C# for receiving and play the MJPEG stream.
 
 # The use case
 
