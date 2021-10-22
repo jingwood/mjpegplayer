@@ -1,29 +1,29 @@
 # .NET MJPEG Player
 
-A Windows application written in C# for receiving and play the MJPEG stream.
+A Windows application written in C# to receive and play the MJPEG stream video.
 
-# The use case
+# The typical use case
 
-1. Install the motion program on Raspberry Pi
-2. Config to send MJPEG stream from motion
-3. Play the MJPEG stream on Windows
+1. Set up a motion program on Raspberry Pi to record video
+2. Send MJPEG stream video from motion program
+3. Receive and play the MJPEG stream video using this program
 
 # Features
 
-- Simple no-frame window design
+- Simple frameless windows form design
 - Notification area tray
-- Keep window always on top when playing
-- Hotkeys to switch window size (x1, x2, x4 and free size)
+- Keep window on top during playing video
+- Hotkeys to switch between different window size (x1, x2, x4 and free)
 - Automatically adjust window size according to received MJPEG stream
 - Support via HTTP proxy server
-- Save proxy server account information using simple encryption policy
-- Work on since .NET 2.0 framework
+- Keep proxy server settings using simple encryption policy
+- Worked with .NET 2.0 framework
 - No 3rd-party software required
 
 # System requirements
 
-The .NET framework is required to run this program. 
-The .NET framework will be prompted to be installed automatically on the first time this program running.
+- The .NET framework is required to run this program. 
+- The .NET framework may be prompted to be installed automatically at first time to run this program.
 
 # Build Environment
 
